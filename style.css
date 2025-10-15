@@ -4,24 +4,24 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.block-info {
+.info-block {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.block-info img {
+.info-block img {
     width: 100%;
 }
-.block-info .more-inf {
+.info-block .more-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.block-info { text-align: center;
+.info-block { text-align: center;
 }
 }
-.centered-main-page-element {
+.todo-block {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -31,7 +31,7 @@ body {
     display: inline-block;
     flex-grow: 1
 }
-.task-row-wrapper {
+.task-wrapper {
     display: flex;
 }
 ul {
