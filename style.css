@@ -13,12 +13,14 @@ body {
 .info-block img {
     width: 100%;
 }
-.info-block .more-inf {
+.info-block, 
+.more-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.info-block {  text-align: center;
+.info-block {  
+    text-align: center;
 }
 }
 .todo-block {
@@ -38,10 +40,12 @@ ul {
     margin: 0;
     padding: 0px;
 }
-.item, .header {
+.item, 
+.header {
     list-style: none;
 }
-input,button{
+input,
+button{
     outline: none;
 }
 button {
