@@ -11,7 +11,7 @@
   <header class="info-block">
     <img src="./eisenhower-matrix.jpg" alt="matrix-pic">
     <a 
-    class="more-inf" 
+    class="header__link" 
     href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?
     </a>
   </header>
@@ -21,42 +21,42 @@
         <div class="task-wrapper">
             <input 
               id="new-task"
-              class="task" 
+              class="list__task" 
               type="text">
             <button>Add</button>
         </div>
    </p>
    <h3 class="header">Todo</h3>
-   <ul id="incompleteTasks">
-     <li class="item">
-        <input type="checkbox">
-        <label class="task">Pay Bills</label>
-        <input type="text" class="task">
-        <button class="edit">Edit</button>
-        <button class="delete">
+   <ul class="incomplete-task list">
+     <li class="incomplete-task__item">
+        <input type="checkbox" class="incomplete-task__checkbox">
+        <label class="list__task">Pay Bills</label>
+        <input type="text" class="list__task__input">
+        <button class="list__edit">Edit</button>
+        <button class="list__delete">
             <img src="./remove.svg" alt="remove-button">
         </button>
      </li>
-     <li class="edit-mode item">
-        <input type="checkbox">
-        <label class="task">Go Shopping</label>
+     <li class="edit-mode incomplete-task__item">
+        <input type="checkbox" class="incomplete-task__checkbox">
+        <label class="list__task">Go Shopping</label>
         <input 
           type="text" 
           value="Go Shopping" 
-          class="task">
-        <button class="edit">Save</button>
-        <button class="delete">
+          class="list__task__input">
+        <button class="list__edit">Save</button>
+        <button class="list__delete">
             <img src="./remove.svg" alt="remove-button">
         </button>
      </li>
   </ul>
   <h3 class="header">Completed</h3>
-  <ul id="completed-tasks">
-    <li class="item"><input type="checkbox" checked>
-        <label class="task">See the Doctor</label>
-        <input type="text" class="task">
-        <button class="edit">Edit</button>
-        <button class="delete">
+  <ul class="completed-task list">
+    <li class="completed-task__item"><input class="incomplete-task__checkbox" type="checkbox" checked>
+        <label class="list__task">See the Doctor</label>
+        <input type="text" class="list__task__input">
+        <button class="list__edit">Edit</button>
+        <button class="list__delete">
             <img src="./remove.svg" alt="remove-button">
         </button>
     </li>
